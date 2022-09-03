@@ -2,4 +2,4 @@
 
 ### created basic react application to test different hooks of react-router
 
-Different hooks use are `Outlet`, `useNavigate`, `NavLink`, 'useLocation'
+Different hooks use are `Outlet`, `useNavigate`, `NavLink`, `useLocation`
