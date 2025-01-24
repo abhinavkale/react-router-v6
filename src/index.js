@@ -26,10 +26,10 @@ root.render(
 
       <Route path="/myapps" element={<Navigate replace to="/contact" />} />
 
-      {/* <Route path="/contact" element={<Contact />} /> */}
       <Route path="/contact" element={<Contact />}>
         <Route path="email" element={<Email />} />
         <Route path="phone" element={<Phone />} />
+        <Route path="user" element={<User />} />
       </Route>
 
       <Route path="/skills" element={<Skills />}>
@@ -155,6 +155,14 @@ function GetSkillName() {
       }}>Click here</button>
       
       {/* <Link to="/skilldashboard" state={"https://www.youtube.com/c/TraversyMedia"}>Click here</Link> */}
+    </div>
+  );
+}
+
+function User() {
+  return(
+    <div className="mt-4">
+      <h4>Abhinav Kale</h4>
     </div>
   );
 }
